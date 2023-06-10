@@ -18,12 +18,20 @@
 # bmi=weight/(height**2)
 # print(round(bmi,2))
 # ------age reamining  problem-----
-age=int(input("whats is your current age? "))
-reaming_years=90-age
-
-days=int(reaming_years*365)
-month=int(reaming_years*12)
-weeks=int(reaming_years*52)
-massage=f"you have {days} days,you have {weeks} weeks,you have {month} month"
-print(massage)
+# age=int(input("whats is your current age? "))
+# reaming_years=90-age
+# days=int(reaming_years*365)
+# month=int(reaming_years*12)
+# weeks=int(reaming_years*52)
+# massage=f"you have {days} days,you have {weeks} weeks,you have {month} month"
+# print(massage)
+# ------tip calculator--------
+print("welcom tip calcutr")
+bill=float(input("what was the total bill?$ "))
+tip=int(input("what percentage tip would like to give ? 10,12 or 15: "))
+people=int(input("how many people to split the bil? "))
+tip_per=tip/100
+total_bill=bill*tip_per+bill
+final_bill=total_bill/people
+print(f"each person have to pay ",round(final_bill))
 
