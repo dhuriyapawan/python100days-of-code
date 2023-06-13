@@ -20,12 +20,19 @@
 # avg=i/average    
 # print(round(avg,2))
 # -----largest number ---
-student_scores = input("Input a list of student scores ").split()
-for n in range(0, len(student_scores)):
-  student_scores[n] = int(student_scores[n])
-print(student_scores)
+# student_scores = input("Input a list of student scores ").split()
+# for n in range(0, len(student_scores)):
+#   student_scores[n] = int(student_scores[n])
+# print(student_scores)
+# i=0
+# for n in student_scores:
+#   if n>i:
+#     i=n
+# print(i)    
+# ----- adding even number only---
 i=0
-for n in student_scores:
-  if n>i:
-    i=n
-print(i)    
+for n in range(0,100,2):
+    i+=n
+print(i)
+           
+
