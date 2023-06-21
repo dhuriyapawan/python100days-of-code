@@ -30,9 +30,30 @@ import random
 # states_of_america.extend(["kukuland","huluhulu land"])
 # print(states_of_america)
 
-# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples",
-                # "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
-name_str=["Angela", "Ben", "jenny", "Michael", "chole"]
-count=len(name_str)
-random_name=random.randint(0,count-1)
-print(f"{name_str[random_name]},is going to buy meal today!")
+# # dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples",
+#                 # "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+# name_str=("Angela", "Ben", "jenny", "Michael", "chole"]
+# count=len(name_str)
+# random_name=random.randint(0,count-1)
+# print(f"{name_str[random_name]},is going to buy meal today!")
+# # --------
+# 🚨 Don't change the code below 👇
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this row 👇
+
+
+
+
+
+
+#Write your code above this row 👆
+
+# 🚨 Don't change the code below 👇
+print(f"{row1}\n{row2}\n{row3}")

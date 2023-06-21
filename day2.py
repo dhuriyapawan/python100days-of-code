@@ -33,5 +33,5 @@ people=int(input("how many people to split the bil? "))
 tip_per=tip/100
 total_bill=bill*tip_per+bill
 final_bill=total_bill/people
-print(f"each person have to pay ",round(final_bill))
-
+print(f"each person have to pay $ ",round(final_bill))
+# ----day 2 compeleted
