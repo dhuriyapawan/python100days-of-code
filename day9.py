@@ -73,12 +73,12 @@
 # add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 # print(travel_log)
 # ----------------dictnory for biding pricing-----
-dict={"name":" bid"}
-def bid(bid_name,bid_price):
-    dict["name"]=bid_name
-    dict["bid"]=bid_price
-    print(dict)
-bid(bid_name="araon",bid_price=25)  
+# dict={"name":" bid"}
+# def bid(bid_name,bid_price):
+#     dict["name"]=bid_name
+#     dict["bid"]=bid_price
+#     print(dict)
+# bid(bid_name="araon",bid_price=25)  
 
 
 
